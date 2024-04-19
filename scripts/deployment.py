@@ -4,7 +4,8 @@ from mlflow_utils import create_mlflow_experiment,get_mlflow_experiment
 from analyse import *
 from mlflow.types.schema import Schema
 from mlflow.types.schema import ColSpec
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.linear_model import LogisticRegression
 
 if __name__=="__main__":
 

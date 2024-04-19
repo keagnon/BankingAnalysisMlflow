@@ -1,0 +1,63 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.11.0
+model_size_bytes: 61825183
+model_uuid: a7ec9398d3b8469d9481e282c71eb1a3
+run_id: d678e9adf2214f24bbd9427897b3eaeb
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "double",
+    "name": "duration", "required": true}, {"type": "double", "name": "campaign",
+    "required": true}, {"type": "double", "name": "pdays", "required": true}, {"type":
+    "double", "name": "previous", "required": true}, {"type": "double", "name": "emp_var_rate",
+    "required": true}, {"type": "double", "name": "cons_price_idx", "required": true},
+    {"type": "double", "name": "cons_conf_idx", "required": true}, {"type": "double",
+    "name": "euribor3m", "required": true}, {"type": "double", "name": "nr_employed",
+    "required": true}, {"type": "double", "name": "job_blue-collar", "required": true},
+    {"type": "double", "name": "job_entrepreneur", "required": true}, {"type": "double",
+    "name": "job_housemaid", "required": true}, {"type": "double", "name": "job_management",
+    "required": true}, {"type": "double", "name": "job_retired", "required": true},
+    {"type": "double", "name": "job_self-employed", "required": true}, {"type": "double",
+    "name": "job_services", "required": true}, {"type": "double", "name": "job_student",
+    "required": true}, {"type": "double", "name": "job_technician", "required": true},
+    {"type": "double", "name": "job_unemployed", "required": true}, {"type": "double",
+    "name": "job_unknown", "required": true}, {"type": "double", "name": "marital_married",
+    "required": true}, {"type": "double", "name": "marital_single", "required": true},
+    {"type": "double", "name": "marital_unknown", "required": true}, {"type": "double",
+    "name": "education_basic.6y", "required": true}, {"type": "double", "name": "education_basic.9y",
+    "required": true}, {"type": "double", "name": "education_high.school", "required":
+    true}, {"type": "double", "name": "education_illiterate", "required": true}, {"type":
+    "double", "name": "education_professional.course", "required": true}, {"type":
+    "double", "name": "education_university.degree", "required": true}, {"type": "double",
+    "name": "education_unknown", "required": true}, {"type": "double", "name": "default_unknown",
+    "required": true}, {"type": "double", "name": "default_yes", "required": true},
+    {"type": "double", "name": "housing_unknown", "required": true}, {"type": "double",
+    "name": "housing_yes", "required": true}, {"type": "double", "name": "loan_unknown",
+    "required": true}, {"type": "double", "name": "loan_yes", "required": true}, {"type":
+    "double", "name": "contact_telephone", "required": true}, {"type": "double", "name":
+    "month_aug", "required": true}, {"type": "double", "name": "month_dec", "required":
+    true}, {"type": "double", "name": "month_jul", "required": true}, {"type": "double",
+    "name": "month_jun", "required": true}, {"type": "double", "name": "month_mar",
+    "required": true}, {"type": "double", "name": "month_may", "required": true},
+    {"type": "double", "name": "month_nov", "required": true}, {"type": "double",
+    "name": "month_oct", "required": true}, {"type": "double", "name": "month_sep",
+    "required": true}, {"type": "double", "name": "day_of_week_mon", "required": true},
+    {"type": "double", "name": "day_of_week_thu", "required": true}, {"type": "double",
+    "name": "day_of_week_tue", "required": true}, {"type": "double", "name": "day_of_week_wed",
+    "required": true}, {"type": "double", "name": "poutcome_nonexistent", "required":
+    true}, {"type": "double", "name": "poutcome_success", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-04-19 15:04:26.295437'
