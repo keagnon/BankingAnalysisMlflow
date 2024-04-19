@@ -1,24 +1,41 @@
 import mlflow
-from mlflow_utils import create_mlflow_experiment
+from mlflow import MlflowClient
+from mlflow_utils import create_mlflow_experiment,get_mlflow_experiment
+from analyse import *
+from mlflow.types.schema import Schema
+from mlflow.types.schema import ColSpec
+from sklearn.ensemble import RandomForestClassifier
 
-# Définition de la fonction, assurez-vous qu'elle est dans votre script ou importée correctement
-def create_mlflow_experiment(
-    experiment_name="ProjetMLFLOW",
-    artifact_location="testing_mlflow_artifact",
-    tags={"env": "dev", "version": "1.0.0"}
-) -> str:
-    try:
-        experiment_id = mlflow.create_experiment(
-            name=experiment_name, artifact_location=artifact_location, tags=tags
-        )
-    except Exception as e:
-        print(f"Experiment {experiment_name} already exists: {str(e)}")
-        experiment_id = mlflow.get_experiment_by_name(experiment_name).experiment_id
+if __name__=="__main__":
 
-    mlflow.set_experiment(experiment_name=experiment_name)
-
-    return experiment_id
-
-# Appel de la fonction sans passer d'arguments car les valeurs par défaut sont utilisées
-# experiment_id = create_mlflow_experiment()
+    experiment_id = create_mlflow_experiment(
+        experiment_name="ProjetMLFLOW",
+        artifact_location="testing_mlflow_artifact",
+        tags={"env": "dev", "version": "1.0.0"},
+    )
 # print(f"Experiment ID: {experiment_id}")
+
+client = MlflowClient()
+experiment = get_mlflow_experiment(experiment_name="ProjetMLFLOW")
+
+# Random Forest Classifier
+with mlflow.start_run(run_name="logging_models_rf_brute", experiment_id=178385101586149999) as run:
+    mlflow.sklearn.autolog()
+    rfc = RandomForestClassifier(n_estimators=100, random_state=42)
+    rfc.fit(X_train_upsampled, Y_train_upsampled)
+    y_pred_rf = rfc.predict(X_test)
+
+# Logistic Regression
+with mlflow.start_run(run_name="logging_models_lr_brute", experiment_id=178385101586149999) as run:
+    mlflow.sklearn.autolog()
+    lr = LogisticRegression(random_state=42)
+    lr.fit(X_train_upsampled, Y_train_upsampled)
+    y_pred_lr = lr.predict(X_test)
+
+# Gradient Boosting Classifier
+with mlflow.start_run(run_name="logging_models_gb_brute", experiment_id=178385101586149999) as run:
+    mlflow.sklearn.autolog()
+    gbc = GradientBoostingClassifier(n_estimators=100, random_state=42)
+    gbc.fit(X_train_upsampled, Y_train_upsampled)
+    y_pred_gb = gbc.predict(X_test)
+
