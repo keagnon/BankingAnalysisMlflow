@@ -1,6 +1,27 @@
 # BankingAnalysisMlflow
 
-### Create Conda environment
+
+## Description
+
+Ce projet vise à développer un système de prédiction de souscription à un service financier en utilisant des techniques de Machine Learning et de MLOps. Les données utilisées sont issues d'une campagne marketing précédente, incluant des informations sur les clients et leur décision finale de souscrire ou non. L'objectif principal est de construire un pipeline MLOps complet, incluant l'analyse exploratoire des données, le nettoyage, la construction et l'évaluation de modèles de prédiction, ainsi que le déploiement du modèle final en production.
+
+
+## Étapes du projet
+
+1. **Importation des données** : Les données seront importées à partir d'un fichier CSV contenant des informations sur les clients et leur décision de souscrire ou non.
+2. **Analyse exploratoire des données** : Une analyse univariée et multivariée sera effectuée pour comprendre la distribution des données et les relations entre les variables.
+3. **Prétraitement des données** : Les données seront nettoyées et prétraitées pour gérer les valeurs manquantes et aberrantes, ainsi que pour encoder les variables catégorielles.
+4. **Construction de modèles** : Différents modèles de prédiction seront construits et évalués, tels que la régression logistique, les arbres de décision et les méthodes d'ensemble.
+5. **Optimisation des hyperparamètres** : Les hyperparamètres des modèles seront optimisés pour améliorer leurs performances.
+6. **Déploiement du modèle** : Le meilleur modèle sera déployé en production à l'aide de MLflow, avec une API pour permettre son utilisation dans des applications ou des services externes.
+
+## Commencer
+
+Pour exécuter cette application en local, suivez les étapes ci-dessous :
+
+### Prérequis
+
+#### Create Conda environment
 
 ##### run below commands in terminal but make sure conda is installed or use anaconda prompt which you will get as part of anaconda installation
 
@@ -16,7 +37,9 @@ it will create a conda env named envname and install python version 3.9 and a ip
 4. install notebook inside the environment
 `pip install notebook`
 
-5. Now install all required dependencies to run this notebook
+#### ## Installation
+
+2. Installer les dépendances requises : `pip install -r requirements.txt`
 
 * `pip install pandas`
 * `pip install numpy`
@@ -25,33 +48,26 @@ it will create a conda env named envname and install python version 3.9 and a ip
 * `pip install matplotlib`
 * `pip install mlflow`
 
-Now open the notebook using below command: (from the anaconda prompt inside conda environment)
+## Utilisation
 
-`jupyter notebook`
+1. Exécuter le notebook Jupyter `notebook.ipynb` pour suivre le processus de développement du modèle.
+2. Pour déployer le modèle en production, suivre les instructions dans `deployement.md`.
 
-BankingAnalysisMlflow/
-│
-├── data/
-│   └── banking.csv               # Les données brutes à analyser.
-│
-├── notebooks/
-│   └── analysis.ipynb         # Notebook pour analyse des données.
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_preparation.py       # Importation, nettoyage, et préparation des données.
-│   ├── exploratory_analysis.py   # Analyse univariée et multivariée.
-│   ├── feature_engineering.py    # Encodage des variables catégorielles et autres transformations.
-│   ├── model_evaluation.py       # Évaluation de la variable cible et division des données.
-│   ├── model_selection.py        # Sélection et comparaison des modèles.
-│   ├── hyperparameter_tuning.py  # Optimisation des hyperparamètres.
-│   └── deployment.py             # Scripts pour le déploiement du modèle.
-│
-├── tests/
-│   ├── test_data_preparation.py  # Tests pour la préparation des données.
-│   └── test_models.py            # Tests pour les modèles.
-│
-├── requirements.txt              # Fichier contenant les dépendances.
-├── .gitignore                    # Fichier pour ignorer les fichiers/dossiers non nécessaires.
-└── README.md                     # Documentation sur le projet, l'installation, et l'exécution.
+## Déploiement avec Docker
 
+
+
+## Structure du Projet
+
+
+
+## Contributeurs
+
+- Alimou DIALLO (@santoudllo): Data engineer
+- GBE Grâce (@keagnon): Data engineer
+- Melissa ADIB (@melissa) : Data engineer
+
+
+## Licence
+
+Ce projet est sous licence MIT. N'hésitez pas à utiliser et modifier le code pour vos propres projets.
