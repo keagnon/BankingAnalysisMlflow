@@ -12,7 +12,7 @@ Ce projet vise à développer un système de prédiction de souscription à un s
 2. **Analyse exploratoire des données** : Une analyse univariée et multivariée sera effectuée pour comprendre la distribution des données et les relations entre les variables.
 3. **Prétraitement des données** : Les données seront nettoyées et prétraitées pour gérer les valeurs manquantes et aberrantes, ainsi que pour encoder les variables catégorielles.
 4. **Construction de modèles** : Différents modèles de prédiction seront construits et évalués, tels que la régression logistique, les arbres de décision et les méthodes d'ensemble.
-5. **Optimisation des hyperparamètres** : Les hyperparamètres des modèles seront optimisés pour améliorer leurs performances.
+A highly sophisticated GPT tailored for advanced Python programmers 5. **Optimisation des hyperparamètres** : Les hyperparamètres des modèles seront optimisés pour améliorer leurs performances.
 6. **Déploiement du modèle** : Le meilleur modèle sera déployé en production à l'aide de MLflow, avec une API pour permettre son utilisation dans des applications ou des services externes.
 
 ## Commencer
