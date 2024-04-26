@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/12c346717ffe4612b5e2feae1b631d53/artifacts
+end_time: 1713539068175
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: 12c346717ffe4612b5e2feae1b631d53
+run_name: rogue-shad-849
+run_uuid: 12c346717ffe4612b5e2feae1b631d53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713538861854
+status: 3
+tags: []
+user_id: grace

@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/4e87605c224f4f1095818a674ced03c0/artifacts
+end_time: 1713538238906
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: 4e87605c224f4f1095818a674ced03c0
+run_name: exultant-mouse-830
+run_uuid: 4e87605c224f4f1095818a674ced03c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713538049670
+status: 3
+tags: []
+user_id: grace

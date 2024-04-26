@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/d678e9adf2214f24bbd9427897b3eaeb/artifacts
+end_time: 1713539068648
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: d678e9adf2214f24bbd9427897b3eaeb
+run_name: logging_models_rf
+run_uuid: d678e9adf2214f24bbd9427897b3eaeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713538861854
+status: 3
+tags: []
+user_id: grace

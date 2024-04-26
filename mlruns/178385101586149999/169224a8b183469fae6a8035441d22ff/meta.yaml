@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/169224a8b183469fae6a8035441d22ff/artifacts
+end_time: 1713538266015
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: 169224a8b183469fae6a8035441d22ff
+run_name: gifted-wasp-587
+run_uuid: 169224a8b183469fae6a8035441d22ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713538239418
+status: 3
+tags: []
+user_id: grace

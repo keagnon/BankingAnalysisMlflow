@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/e911666187734954ba5ba2eba775b10f/artifacts
+end_time: 1713539358964
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: e911666187734954ba5ba2eba775b10f
+run_name: brawny-shrew-252
+run_uuid: e911666187734954ba5ba2eba775b10f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713539089101
+status: 3
+tags: []
+user_id: grace

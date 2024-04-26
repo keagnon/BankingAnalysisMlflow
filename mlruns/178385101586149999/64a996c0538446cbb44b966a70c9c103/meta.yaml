@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/64a996c0538446cbb44b966a70c9c103/artifacts
+end_time: 1713538484871
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: 64a996c0538446cbb44b966a70c9c103
+run_name: peaceful-fawn-883
+run_uuid: 64a996c0538446cbb44b966a70c9c103
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713538266107
+status: 3
+tags: []
+user_id: grace

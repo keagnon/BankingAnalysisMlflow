@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/0ac7de6e33ea41cbaa96e64feacc9ad1/artifacts
+end_time: 1713539358964
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: 0ac7de6e33ea41cbaa96e64feacc9ad1
+run_name: capable-toad-632
+run_uuid: 0ac7de6e33ea41cbaa96e64feacc9ad1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713539089101
+status: 3
+tags: []
+user_id: grace

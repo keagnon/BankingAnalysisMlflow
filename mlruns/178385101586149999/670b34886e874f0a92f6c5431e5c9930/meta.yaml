@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/670b34886e874f0a92f6c5431e5c9930/artifacts
+end_time: 1713539358964
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: 670b34886e874f0a92f6c5431e5c9930
+run_name: awesome-steed-919
+run_uuid: 670b34886e874f0a92f6c5431e5c9930
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713539089101
+status: 3
+tags: []
+user_id: grace

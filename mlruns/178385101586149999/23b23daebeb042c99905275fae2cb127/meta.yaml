@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/23b23daebeb042c99905275fae2cb127/artifacts
+end_time: 1713538484871
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: 23b23daebeb042c99905275fae2cb127
+run_name: tasteful-skink-279
+run_uuid: 23b23daebeb042c99905275fae2cb127
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713538266107
+status: 3
+tags: []
+user_id: grace

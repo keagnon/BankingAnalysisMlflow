@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/502baf1360a640b5a1260a38bbbf8c36/artifacts
+end_time: 1713538238906
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: 502baf1360a640b5a1260a38bbbf8c36
+run_name: big-shrimp-602
+run_uuid: 502baf1360a640b5a1260a38bbbf8c36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713538049670
+status: 3
+tags: []
+user_id: grace

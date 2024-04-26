@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1713540238780
+current_stage: Production
+description: null
+last_updated_timestamp: 1713540238785
+name: logging_models_rf_choosen
+run_id: d678e9adf2214f24bbd9427897b3eaeb
+run_link: null
+source: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/d678e9adf2214f24bbd9427897b3eaeb/artifacts/best_estimator
+status: READY
+status_message: null
+storage_location: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/d678e9adf2214f24bbd9427897b3eaeb/artifacts/best_estimator
+user_id: null
+version: 1

@@ -1,0 +1,34 @@
+digest: cc980c75
+name: dataset
+profile: '{"num_rows": 12357, "num_elements": 654921}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "age"}, {"type": "long", "name":
+  "duration"}, {"type": "long", "name": "campaign"}, {"type": "long", "name": "pdays"},
+  {"type": "long", "name": "previous"}, {"type": "double", "name": "emp_var_rate"},
+  {"type": "double", "name": "cons_price_idx"}, {"type": "double", "name": "cons_conf_idx"},
+  {"type": "double", "name": "euribor3m"}, {"type": "double", "name": "nr_employed"},
+  {"type": "boolean", "name": "job_blue-collar"}, {"type": "boolean", "name": "job_entrepreneur"},
+  {"type": "boolean", "name": "job_housemaid"}, {"type": "boolean", "name": "job_management"},
+  {"type": "boolean", "name": "job_retired"}, {"type": "boolean", "name": "job_self-employed"},
+  {"type": "boolean", "name": "job_services"}, {"type": "boolean", "name": "job_student"},
+  {"type": "boolean", "name": "job_technician"}, {"type": "boolean", "name": "job_unemployed"},
+  {"type": "boolean", "name": "job_unknown"}, {"type": "boolean", "name": "marital_married"},
+  {"type": "boolean", "name": "marital_single"}, {"type": "boolean", "name": "marital_unknown"},
+  {"type": "boolean", "name": "education_basic.6y"}, {"type": "boolean", "name": "education_basic.9y"},
+  {"type": "boolean", "name": "education_high.school"}, {"type": "boolean", "name":
+  "education_illiterate"}, {"type": "boolean", "name": "education_professional.course"},
+  {"type": "boolean", "name": "education_university.degree"}, {"type": "boolean",
+  "name": "education_unknown"}, {"type": "boolean", "name": "default_unknown"}, {"type":
+  "boolean", "name": "default_yes"}, {"type": "boolean", "name": "housing_unknown"},
+  {"type": "boolean", "name": "housing_yes"}, {"type": "boolean", "name": "loan_unknown"},
+  {"type": "boolean", "name": "loan_yes"}, {"type": "boolean", "name": "contact_telephone"},
+  {"type": "boolean", "name": "month_aug"}, {"type": "boolean", "name": "month_dec"},
+  {"type": "boolean", "name": "month_jul"}, {"type": "boolean", "name": "month_jun"},
+  {"type": "boolean", "name": "month_mar"}, {"type": "boolean", "name": "month_may"},
+  {"type": "boolean", "name": "month_nov"}, {"type": "boolean", "name": "month_oct"},
+  {"type": "boolean", "name": "month_sep"}, {"type": "boolean", "name": "day_of_week_mon"},
+  {"type": "boolean", "name": "day_of_week_thu"}, {"type": "boolean", "name": "day_of_week_tue"},
+  {"type": "boolean", "name": "day_of_week_wed"}, {"type": "boolean", "name": "poutcome_nonexistent"},
+  {"type": "boolean", "name": "poutcome_success"}]}'
+source: '{"tags": {"mlflow.user": "grace", "mlflow.source.name": "scripts/deployment.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "2f84d2c14d2f9558b7f35cda524f17f457dd94f1"}}'
+source_type: code

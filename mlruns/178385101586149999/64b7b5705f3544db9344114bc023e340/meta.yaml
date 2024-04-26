@@ -1,0 +1,15 @@
+artifact_uri: /home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/64b7b5705f3544db9344114bc023e340/artifacts
+end_time: 1713538266015
+entry_point_name: ''
+experiment_id: '178385101586149999'
+lifecycle_stage: active
+run_id: 64b7b5705f3544db9344114bc023e340
+run_name: capricious-bass-911
+run_uuid: 64b7b5705f3544db9344114bc023e340
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713538239418
+status: 3
+tags: []
+user_id: grace
