@@ -10,15 +10,13 @@ from sklearn.model_selection import GridSearchCV, train_test_split
 
 if __name__=="__main__":
 
-    experiment_id = create_mlflow_experiment(
+ experiment_id = create_mlflow_experiment(
         experiment_name="ProjetMLFLOW",
         artifact_location="testing_mlflow_artifact",
         tags={"env": "dev", "version": "1.0.0"},
     )
-# print(f"Experiment ID: {experiment_id}")
-
 client = MlflowClient()
-experiment_id=178385101586149999
+experiment_id=221465795260439609
 
 # def optimize_model(model, param_grid, X_train, Y_train):
 #     grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=5, scoring='accuracy')
@@ -26,12 +24,12 @@ experiment_id=178385101586149999
 #     best_model = grid_search.best_estimator_
 #     return best_model, grid_search.best_params_
 
-# # Hyperparameters and models setup
-# rf_params = {'n_estimators': [120, 300], 'max_depth': [8, 20, None]}
-# lr_params = {'C': [0.1, 1, 11]}
-# gb_params = {'n_estimators': [150, 250], 'learning_rate': [0.05, 0.1]}
+# Hyperparameters and models setup
+# rf_params = {'n_estimators': [150, 320], 'max_depth': [8, 20, None]}
+# lr_params = {'C': [0.1, 1, 12]}
+# gb_params = {'n_estimators': [250, 150], 'learning_rate': [0.05, 0.1]}
 
-# # Random Forest Classifier
+# Random Forest Classifier
 # with mlflow.start_run(run_name="logging_models_rf", experiment_id=experiment_id):
 #     mlflow.sklearn.autolog()
 #     rf_model = RandomForestClassifier(random_state=42)
@@ -39,7 +37,7 @@ experiment_id=178385101586149999
 #     y_pred_rf = best_rf.predict(X_test)
 #     mlflow.log_params(best_rf_params)
 
-# # Logistic Regression
+# Logistic Regression
 # with mlflow.start_run(run_name="logging_models_lr", experiment_id=experiment_id):
 #     mlflow.sklearn.autolog()
 #     lr_model = LogisticRegression(random_state=42, max_iter=200)
@@ -47,7 +45,7 @@ experiment_id=178385101586149999
 #     y_pred_lr = best_lr.predict(X_test)
 #     mlflow.log_params(best_lr_params)
 
-# # Gradient Boosting Classifier
+# Gradient Boosting Classifier
 # with mlflow.start_run(run_name="logging_models_gb", experiment_id=experiment_id):
 #     mlflow.sklearn.autolog()
 #     gb_model = GradientBoostingClassifier(random_state=42)
@@ -57,14 +55,14 @@ experiment_id=178385101586149999
 
 
 # create model version
-source = "/home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/d678e9adf2214f24bbd9427897b3eaeb/artifacts/best_estimator"
-run_id = "d678e9adf2214f24bbd9427897b3eaeb"
+source = "/home/grace/Projects_training_CDI/Mlops_project/BankingAnalysisMlflow/testing_mlflow_artifact/d6e088ecab334234bea335d3d1ae6cd5/artifacts/best_estimator"
+run_id = "d6e088ecab334234bea335d3d1ae6cd5"
 
 # create registered model
 model_name="logging_models_rf_choosen"
 # client.create_registered_model(model_name)
 
-client.create_model_version(name=model_name, source=source, run_id=run_id)
+# client.create_model_version(name=model_name, source=source, run_id=run_id)
 
 # transition model version stage
 client.transition_model_version_stage(name=model_name, version=1, stage="Production")
