@@ -23,7 +23,7 @@ Pour exécuter cette application en local, suivez les étapes ci-dessous :
 
 #### Create Conda environment
 
-##### run below commands in terminal but make sure conda is installed or use anaconda prompt which you will get as part of anaconda installation
+`run below commands in terminal but make sure conda is installed or use anaconda prompt which you will get as part of anaconda installation`
 
 1. `conda create -n envname python=3.9 ipykernel`
 it will create a conda env named envname and install python version 3.9 and a ipykernel inside this environment
@@ -37,7 +37,7 @@ it will create a conda env named envname and install python version 3.9 and a ip
 4. install notebook inside the environment
 `pip install notebook`
 
-#### ## Installation
+## Installation
 
 2. Installer les dépendances requises : `pip install -r requirements.txt`
 
