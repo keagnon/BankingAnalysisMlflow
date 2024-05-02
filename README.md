@@ -53,13 +53,8 @@ it will create a conda env named envname and install python version 3.9 and a ip
 1. Exécuter le notebook Jupyter `notebook.ipynb` pour suivre le processus de développement du modèle.
 2. Pour déployer le modèle en production, suivre les instructions dans `deployement.md`.
 
-## Déploiement avec Docker
-
-
 
 ## Structure du Projet
-
-
 
 ## Contributeurs
 
